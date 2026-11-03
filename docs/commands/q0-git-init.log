@@ -1,0 +1,4 @@
+$ git init
+Initialized empty Git repository in /home/abhinav/devops-lab-2/.git/
+
+$ git add . && git status --short
