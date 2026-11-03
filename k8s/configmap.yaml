@@ -4,5 +4,4 @@ kind: ConfigMap
 metadata:
   name: lab2-app-config
 data:
-  APP_VERSION: "2.0.0"
   APP_MESSAGE: "DevOps Lab 2 app running on Kubernetes (Minikube)"
