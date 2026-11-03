@@ -36,7 +36,7 @@ pipeline {
                 sh 'kubectl apply -f k8s/'
                 sh "kubectl set image deployment/lab2-app lab2-app=$HUB_IMAGE:$VERSION"
                 sh 'kubectl rollout status deployment/lab2-app --timeout=180s'
-                sh 'curl -s http://$(minikube ip):30080/health'
+                sh 'NODE_IP=$(kubectl get nodes -o jsonpath="{.items[0].status.addresses[0].address}") && curl -s http://$NODE_IP:30080/health'
             }
         }
     }
