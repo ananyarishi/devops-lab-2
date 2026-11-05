@@ -40,4 +40,4 @@ $ docker exec lab2-app python --version
 Python 3.12.16
 $ docker top lab2-app
 UID                 PID                 PPID                C                   STIME               TTY                 TIME                CMD
-abhinav             4270                4234                31                  19:48               ?                   00:00:00            python app.py
+ananya             4270                4234                31                  19:48               ?                   00:00:00            python app.py

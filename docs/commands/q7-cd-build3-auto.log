@@ -1,5 +1,5 @@
 Started by an SCM change
-Obtained Jenkinsfile from git https://github.com/theabhinav0231/devops-lab-2.git
+Obtained Jenkinsfile from git https://github.com/theananya0231/devops-lab-2.git
 [Pipeline] Start of Pipeline
 [Pipeline] node
 Running on Jenkins in /var/lib/jenkins/workspace/devops-lab2-cd
@@ -12,11 +12,11 @@ The recommended git tool is: NONE
 No credentials specified
  > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/devops-lab2-cd/.git # timeout=10
 Fetching changes from the remote Git repository
- > git config remote.origin.url https://github.com/theabhinav0231/devops-lab-2.git # timeout=10
-Fetching upstream changes from https://github.com/theabhinav0231/devops-lab-2.git
+ > git config remote.origin.url https://github.com/theananya0231/devops-lab-2.git # timeout=10
+Fetching upstream changes from https://github.com/theananya0231/devops-lab-2.git
  > git --version # timeout=10
  > git --version # 'git version 2.43.0'
- > git fetch --tags --force --progress -- https://github.com/theabhinav0231/devops-lab-2.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git fetch --tags --force --progress -- https://github.com/theananya0231/devops-lab-2.git +refs/heads/*:refs/remotes/origin/* # timeout=10
  > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
 Checking out Revision 496cf4e09d5a25393bf721f2f44d2243707a8604 (refs/remotes/origin/main)
  > git config core.sparsecheckout # timeout=10
@@ -39,11 +39,11 @@ The recommended git tool is: NONE
 No credentials specified
  > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/devops-lab2-cd/.git # timeout=10
 Fetching changes from the remote Git repository
- > git config remote.origin.url https://github.com/theabhinav0231/devops-lab-2.git # timeout=10
-Fetching upstream changes from https://github.com/theabhinav0231/devops-lab-2.git
+ > git config remote.origin.url https://github.com/theananya0231/devops-lab-2.git # timeout=10
+Fetching upstream changes from https://github.com/theananya0231/devops-lab-2.git
  > git --version # timeout=10
  > git --version # 'git version 2.43.0'
- > git fetch --tags --force --progress -- https://github.com/theabhinav0231/devops-lab-2.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git fetch --tags --force --progress -- https://github.com/theananya0231/devops-lab-2.git +refs/heads/*:refs/remotes/origin/* # timeout=10
  > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
 Checking out Revision 496cf4e09d5a25393bf721f2f44d2243707a8604 (refs/remotes/origin/main)
  > git config core.sparsecheckout # timeout=10

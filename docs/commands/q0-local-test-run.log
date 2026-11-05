@@ -3,9 +3,9 @@ $ pip install -r app/requirements.txt
 
 $ python -m pytest tests/ -v
 ============================= test session starts ==============================
-platform linux -- Python 3.12.3, pytest-8.3.4, pluggy-1.7.0 -- /home/abhinav/devops-lab-2/venv/bin/python
+platform linux -- Python 3.12.3, pytest-8.3.4, pluggy-1.7.0 -- /home/ananya/devops-lab-2/venv/bin/python
 cachedir: .pytest_cache
-rootdir: /home/abhinav/devops-lab-2
+rootdir: /home/ananya/devops-lab-2
 collecting ... collected 2 items
 
 tests/test_app.py::test_index PASSED                                     [ 50%]

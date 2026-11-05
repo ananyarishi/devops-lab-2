@@ -1,8 +1,8 @@
 ### Build the image inside minikube docker context so the cluster can use it
 $ eval $(minikube docker-env) && docker build -f docker/Dockerfile -t devops-lab2-app:2.0.0 .
 ! Using the docker-env command with the containerd runtime is a highly experimental feature, please provide feedback or contribute to make it better
-Identity added: /home/abhinav/.minikube/machines/minikube/id_rsa (/home/abhinav/.minikube/machines/minikube/id_rsa)
-Host added: /home/abhinav/.ssh/known_hosts ([127.0.0.1]:44620)
+Identity added: /home/ananya/.minikube/machines/minikube/id_rsa (/home/ananya/.minikube/machines/minikube/id_rsa)
+Host added: /home/ananya/.ssh/known_hosts ([127.0.0.1]:44620)
 #0 building with "default" instance using docker-container driver
 
 #1 [internal] booting buildkit
